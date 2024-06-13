@@ -1,0 +1,24 @@
+{
+  "name": "videojs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "build:watch": "webpack --mode development --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "video.js": "7.20.3",
+    "videojs-playlist": "5.1.2",
+    "videojs-playlist-ui": "4.2.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
